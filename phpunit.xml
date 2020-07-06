@@ -1,0 +1,12 @@
+<phpunit>
+    <testsuites>
+        <testsuite name="log-missing-translations">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+</phpunit>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="3.12.2@7c7ebd068f8acaba211d4a2c707c4ba90874fa26">
+  <file src="tests/LanguageTest.php">
+    <MixedMethodCall occurrences="6">
+      <code>willReturn</code>
+      <code>method</code>
+      <code>with</code>
+      <code>willReturn</code>
+      <code>willReturn</code>
+      <code>willReturn</code>
+    </MixedMethodCall>
+    <PossiblyInvalidMethodCall occurrences="3">
+      <code>willReturn</code>
+      <code>willReturn</code>
+      <code>willReturn</code>
+    </PossiblyInvalidMethodCall>
+    <PropertyNotSetInConstructor occurrences="1">
+      <code>LanguageTest</code>
+    </PropertyNotSetInConstructor>
+  </file>
+</files>
