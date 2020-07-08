@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <files psalm-version="3.12.2@7c7ebd068f8acaba211d4a2c707c4ba90874fa26">
+  <file src="src/Language.php">
+    <ImplementedReturnTypeMismatch occurrences="1">
+      <code>string|array</code>
+    </ImplementedReturnTypeMismatch>
+  </file>
   <file src="tests/LanguageTest.php">
     <MixedMethodCall occurrences="6">
       <code>willReturn</code>

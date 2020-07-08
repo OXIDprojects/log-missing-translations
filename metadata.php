@@ -10,7 +10,7 @@ $aModule = array(
     'author'      => 'OXID eSales Professional Services',
     'url'         => 'http://www.oxid-esales.com',
     'email'       => 'info@oxid-esales.com',
-    'version'     => '1.1.0',
+    'version'     => '2.0.1',
     'extend'      => [
         \OxidEsales\Eshop\Core\Language::class => \OxidProfessionalServices\LogMissingTranslations\Language::class,
     ],

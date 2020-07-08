@@ -13,15 +13,20 @@ class Language extends Language_parent
      *
      * @param int|null $iLang
      * @param bool|null $blAdminMode
+     *
+     * @return string|array
      */
     public function translateStringParentMethod(
         string $sStringToTranslate,
         ?int $iLang = null,
         ?bool $blAdminMode = null
-    ): string {
+    ) {
         return parent::translateString($sStringToTranslate, $iLang, $blAdminMode);
     }
 
+    /**
+     * @return string|array
+     */
     public function translateString($sStringToTranslate, $iLang = null, $blAdminMode = null)
     {
         $translation = $this->translateStringParentMethod($sStringToTranslate, $iLang, $blAdminMode);
